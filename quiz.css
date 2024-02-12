@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(1, 1, 58);
+}
+
+.app{
+    background: white;  
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-weight: 28px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid  rgba(0, 30, 77, .2);
+    padding-bottom: 30px;
+}
+
+app 
