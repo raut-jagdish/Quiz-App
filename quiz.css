@@ -25,4 +25,77 @@ body{
     padding-bottom: 30px;
 }
 
-app 
+.app h2{
+    font-size: 16px;
+    color: #001e4d;
+    font-weight: 28px;
+}
+
+.btn{
+    width: 100%;
+    background: #fff;
+    color: #222;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    color: #fff;
+    background: #222;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#btn-next{
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #001e4d;
+    color: #ffffff;
+    cursor: pointer;
+    width: 150px;
+    border:none;
+    font-weight: 500;
+    display: none ;
+}
+
+.correct{
+    background:#9aeabc;
+}
+
+.Incorrect{
+    background:#ff9393;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(1, 1, 58);
+}
+
+.app{
+    background: white;  
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-weight: 28px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid  rgba(0, 30, 77, .2);
+    padding-bottom: 30px;
+}
